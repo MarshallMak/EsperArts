@@ -1,0 +1,1 @@
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'ngAnimate', 'MainCtrl', 'ProjectsCtrl', 'TeamCtrl', 'ServicesCtrl', 'ContactCtrl']);

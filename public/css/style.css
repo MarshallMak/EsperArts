@@ -1,0 +1,30 @@
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color:#ffffff;
+    background-color:black;
+    font-size:20px;
+}
+
+a {
+    font-size:20px;
+}
+h1 {
+    color:#ffffff;
+}
+
+li  {
+    padding:10px
+}
+
+.view {
+    padding-top:100px;
+}
+
+.navbar {
+    background-color:#000000;
+}
+
+.navbar-header {
+    padding-bottom:10px;
+}

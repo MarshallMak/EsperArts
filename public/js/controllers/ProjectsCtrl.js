@@ -1,0 +1,86 @@
+/**
+ * Created by mak on 6/1/14.
+ */
+angular.module('ProjectsCtrl', []).controller('ProjectsController', function($scope) {
+
+    $scope.tagline = 'Nothing beats a pocket protector!';
+    $scope.xs = [
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Joe",
+            lastname:"Burgos"
+        }
+    ];
+
+});
