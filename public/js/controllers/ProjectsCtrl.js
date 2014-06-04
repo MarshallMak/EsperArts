@@ -4,9 +4,13 @@
 angular.module('ProjectsCtrl', []).controller('ProjectsController', function($scope) {
 
     $scope.tagline = 'Nothing beats a pocket protector!';
-    $scope.xs = [
+    $scope.projects = [
         {
             name:"Edwin",
+            lastname:"Mak"
+        },
+        {
+            name:"Gary",
             lastname:"Mak"
         },
         {
@@ -32,54 +36,6 @@ angular.module('ProjectsCtrl', []).controller('ProjectsController', function($sc
         {
             name:"Edwin",
             lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Edwin",
-            lastname:"Mak"
-        },
-        {
-            name:"Joe",
-            lastname:"Burgos"
         }
     ];
 

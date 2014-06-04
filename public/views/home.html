@@ -1,9 +1,28 @@
-<h1 align="center">Technology Meets Art</h1>
 <div class="row">
-    <div class="col-md-8">
-        <h1>BLOG or NEWS</h1>
+    <div class="col-md-9">
+        <div class="page-header expand">
+            <h1>News <small>Whats Going On?</small></h1>
+        </div>
+        <div ng-repeat="post in posts">
+            <div class="media expand">
+                <img class="media-object pull-left" src={{post.picture}} style="max-height:100px;max-width:100px">
+                <div class="media-body">
+                    <h4 class="media-heading">{{post.name}} | Date:</h4>
+                    <p>{{post.postContent}}</p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h1>Recent Projects</h1>
+    <div class="col-md-3">
+        <div class="page-header expand">
+            <h1>Projects<small> Nerd Stuff</small></h1>
+        </div>
+        <div ng-controller="ProjectsController" align="center">
+            <div ng-repeat="project in projects">
+                {{project.name}}
+            </div>
+        </div>
     </div>
 </div>
