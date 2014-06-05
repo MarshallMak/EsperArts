@@ -1,4 +1,4 @@
-angular.module('MainCtrl', []).controller('MainController', function($scope) {
+angular.module('MainCtrl', []).controller('MainController', function($scope, $location, $anchorScroll) {
 
 	$scope.tagline = 'To the moon and back! ';
     $scope.posts = [
@@ -8,5 +8,12 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
         {name:"Joe", picture:"http://thebestchapter.files.wordpress.com/2012/03/albert_einstein_1947_square_cropped.jpg", date:"10/20/2014", postContent:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
         {name:"Steve", picture:"http://thebestchapter.files.wordpress.com/2012/03/albert_einstein_1947_square_cropped.jpg", date:"10/20/2014", postContent:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
     ];
+    $scope.gotoTop = function (){
+        // set the location.hash to the id of
+        // the element you wish to scroll to.
+        $location.hash('TOP');
 
+        // call $anchorScroll()
+        $anchorScroll();
+    };
 });

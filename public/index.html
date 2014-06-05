@@ -53,9 +53,10 @@
         </div><!--/.nav-collapse -->
     </div>
 </div>
-<div class="view-animate-container" style="margin-top:70px">
-    <div ng-view class="view-animate"></div>
-</div>
+    <div id="TOP"></div>
+    <div class="view-animate-container"  style="margin-top:70px">
+        <div ng-view class="view-animate" onload="gotoTop()"></div>
+    </div>
 </div>
 </body>
 </html>

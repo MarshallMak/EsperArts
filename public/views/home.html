@@ -5,7 +5,7 @@
         </div>
         <div ng-repeat="post in posts">
             <div class="media expand">
-                <img class="media-object pull-left" src={{post.picture}} style="max-height:100px;max-width:100px">
+                <img class="media-object pull-left" src={{post.picture}} style="max-height:100px;max-width:100px;">
                 <div class="media-body">
                     <h4 class="media-heading">{{post.name}} | Date:</h4>
                     <p>{{post.postContent}}</p>
@@ -20,8 +20,13 @@
             <h1>Projects<small> Nerd Stuff</small></h1>
         </div>
         <div ng-controller="ProjectsController" align="center">
-            <div ng-repeat="project in projects">
-                {{project.name}}
+            <div class="thumbnail expand" ng-repeat="project in projects">
+                <img src="http://thebestchapter.files.wordpress.com/2012/03/albert_einstein_1947_square_cropped.jpg" alt="300x200" style="">
+                <div class="caption">
+                    <h3>{{project.name}}</h3>
+                    <p>Info about the project</p>
+                    <a href={{project.id}}>LEARN MORE</a>
+                </div>
             </div>
         </div>
     </div>
